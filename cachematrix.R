@@ -3,11 +3,6 @@
 
 ## Write a short comment describing this function
 
-##a <- c(2,1)
-##b <- c(5,3)
-##xyz <- rbind(a,b)
-##mm <- makeCacheMatrix(xyz)
-##cacheSolve(mm)
 
 makeCacheMatrix <- function(x = matrix()) {
   inverseM <- NULL
@@ -24,7 +19,7 @@ makeCacheMatrix <- function(x = matrix()) {
   
   
 }
-
+ 
 
 ## Write a short comment describing this function
 
@@ -41,3 +36,10 @@ cacheSolve <- function(x, ...) {
   x$setinverse(inverseM)
   inverseM  
 }
+
+##usage_________
+##a <- c(2,1)
+##b <- c(5,3)
+##xyz <- rbind(a,b)
+##mm <- makeCacheMatrix(xyz)
+##cacheSolve(mm)
