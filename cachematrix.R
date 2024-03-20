@@ -2,6 +2,7 @@
 ## functions do
 
 ## Write a short comment describing this function
+## this is for inverse matrix for caching..
 
 
 makeCacheMatrix <- function(x = matrix()) {
@@ -37,7 +38,7 @@ cacheSolve <- function(x, ...) {
   inverseM  
 }
 
-##########usage________
+###################usage________
 ##a <- c(2,1)
 ##b <- c(5,3)
 ##xyz <- rbind(a,b)
